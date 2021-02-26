@@ -1,0 +1,38 @@
+#agenda{
+    min-height: 65rem;
+    padding-top: 6rem;
+    background-image: url(../image/fondagenda.png);
+    h2{  
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .line{
+        border-bottom: 1px #fff solid;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .tickets{
+        padding: 5px;
+        margin-top:2rem;
+        
+    }
+    a.tickets:link , a.tickets:visited {
+        color: #fff;
+        border: 2px #fff solid;
+        font-weight: 600;
+        transition: 2s;
+    }
+    a.tickets:hover{
+        color: #cc0033;
+        background: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 1s;
+
+    }
+    .margin{
+        margin-top: 2.5rem;
+    }
+    
+}

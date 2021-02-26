@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #cc0033;
+  min-height: 6rem;
+  padding: 20px;
+}
+
+header nav {
+  background: #cc0033;
+  min-height: 100%;
+}
+
+header .mynav a:link, header .mynav a:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+header .mynav a:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header #navbarSupportedContent {
+  text-align: center;
+}
+
+header .nav-link1 {
+  margin: 0px 10px;
+}
+
+header .nav-link2 {
+  margin: 0px 5px;
+}
+
+header .icon {
+  font-size: 1.2rem;
+}
+
+#agenda {
+  min-height: 65rem;
+  padding-top: 6rem;
+  background-image: url(../image/fondagenda.png);
+}
+
+#agenda h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#agenda .line {
+  border-bottom: 1px #fff solid;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#agenda .tickets {
+  padding: 5px;
+  margin-top: 2rem;
+}
+
+#agenda a.tickets:link, #agenda a.tickets:visited {
+  color: #fff;
+  border: 2px #fff solid;
+  font-weight: 600;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+#agenda a.tickets:hover {
+  color: #cc0033;
+  background: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#agenda .margin {
+  margin-top: 2.5rem;
+}
+
+#Album {
+  padding: 6rem 0;
+  min-height: 45rem;
+}
+
+#Album img {
+  height: 29rem;
+}
+
+#Album h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#Album p {
+  text-align: center;
+}
+
+#Album .titles {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#Propos {
+  background-image: url(../image/imgfd.png);
+  padding-top: 500px;
+  min-height: 55rem;
+}
+
+#Propos h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#galerie {
+  margin: 100px 0px;
+  margin: 6rem 0;
+  min-height: 55rem;
+}
+
+#galerie img {
+  height: 23rem;
+}
+
+#galerie h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}

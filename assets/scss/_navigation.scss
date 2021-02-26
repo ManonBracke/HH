@@ -1,0 +1,36 @@
+header{
+    background-color: #cc0033;
+    min-height: 6rem;
+    padding: 20px;
+    nav{
+        
+        background: #cc0033;
+        min-height: 100%;
+    }
+    
+    .mynav a:link, .mynav a:visited{
+        color:white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 1s;
+    }
+    .mynav a:hover{
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+    #navbarSupportedContent{
+        text-align: center;
+    }
+    .nav-link1{
+    
+        margin: 0px 10px;
+    }
+    .nav-link2{
+        margin: 0px 5px;
+    }
+    .icon{
+        font-size: 1.2rem;
+    }
+}
